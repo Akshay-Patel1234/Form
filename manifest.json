@@ -1,0 +1,16 @@
+{
+    "name": "Profile Scraper",
+    "version": "0.0.1",
+    "description": "Scrapes Linkdin user Profiles & exports",
+    "manifest_version": 2,
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon": "icon.png"
+    },
+    "icons":{
+        "128":"icon.png"
+    },
+    "permissions": ["activeTab"]
+
+
+}
